@@ -233,7 +233,7 @@ void setup() {
     Serial.println(WiFi.localIP());
 
     // если нужен MQTT - подключаемся
-    hub.mqtt.config("test.mosquitto.org", 1883);
+    hub.mqtt.config("192.168.1.70", 1883);
     // hub.mqtt.config("test.mosquitto.org", 1883, "login", "pass");
 
     // ИЛИ
